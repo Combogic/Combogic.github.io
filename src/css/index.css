@@ -1,0 +1,233 @@
+/* ----------------------------------------------------------------------
+    whychap
+---------------------------------------------------------------------- */
+
+/* 按鈕 */
+.com-whychap-btn.com-whychap-btn {
+    @apply w-[8px] h-[8px] text-base text-left whitespace-normal text-transparent bg-slate-200 opacity-100 overflow-hidden rounded-md
+        md:w-full md:h-auto md:px-4 md:py-2 md:text-slate-400
+        lg:whitespace-nowrap;
+}
+.com-whychap-btn.com-whychap-btn.swiper-pagination-bullet-active {
+    @apply bg-sky-400
+        md:text-white;
+}
+
+/* 內文 */
+.com-whychap-content {
+    @apply w-full flex flex-col gap-2 p-0;
+}
+.com-whychap-content > img {
+    @apply w-full max-w-screen-sm mx-auto rounded-xl;
+}
+.com-whychap-content > h3 {
+    @apply text-sky-500 text-xl font-semibold leading-loose;
+}
+.com-whychap-content > p {
+    @apply text-slate-500 text-base leading-loose;
+}
+
+/* ----------------------------------------------------------------------
+    flow
+---------------------------------------------------------------------- */
+
+.com-flow {
+    @apply flex flex-row items-center gap-6
+        xl:flex-col xl:gap-4;
+}
+
+/* com-flow-head ---------------------------------------- */
+
+/* 流程標題 */
+.com-flow-head {
+    @apply relative w-fit h-full p-2 flex flex-col items-center justify-center gap-2 overflow-x-clip overflow-y-visible
+        xl:w-full xl:h-fit xl:flex-row xl:overflow-y-clip xl:overflow-x-visible;
+}
+.com-flow-head > div {
+    @apply w-10 h-10 grid place-items-center rounded-full bg-sky-100 z-20;
+}
+.com-flow-head > div > img {
+    @apply w-6 h-6;
+}
+
+/* 文字方向 */
+.com-flow-head > h3 {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    @apply font-semibold text-xl;
+}
+@media (min-width: 1280px) {
+    .com-flow-head > h3 {
+        writing-mode: unset;
+        -webkit-writing-mode: unset;
+    }
+}
+
+/* 顏色 */
+.com-flow:not(:last-child) > .com-flow-head {
+    @apply bg-slate-50 text-sky-500;
+}
+.com-flow:last-child > .com-flow-head {
+    @apply bg-sky-400 text-white;
+}
+
+/* 箭頭 */
+.com-flow-head::after {
+    @apply absolute rotate-45 bg-inherit border-slate-200 border-t-0 border-r-8 border-b-8 z-10;
+    content: "";
+    --size:  3rem;
+    right:   calc( 50% - var( --size ) / 2 );
+    bottom:  calc( 0%  - var( --size ) / 3 );
+    height:  var( --size );
+    width:   var( --size );
+}
+@media (min-width: 1280px) {
+    .com-flow-head::after {
+        @apply border-t-8 border-r-8 border-b-0;
+        right:  calc( 0%  - var( --size ) / 3 );
+        bottom: calc( 50% - var( --size ) / 2 );
+    }
+}
+
+/* com-flow-body ---------------------------------------- */
+
+/* 現況作法 & CHAP-V */
+.com-flow-body {
+    @apply py-4 w-full h-full
+        xl:px-4;
+}
+.com-flow-body > div {
+    @apply relative w-full h-full p-4 flex flex-col
+        sm:flex-row
+        xl:flex-col;
+}
+.com-flow-body > div > div {
+    @apply w-full px-2 py-4 flex flex-col items-center gap-2
+        sm:px-6 sm:py-2
+        xl:px-2 xl:py-4;
+}
+.com-flow-body > div > div > p {
+    @apply font-semibold text-xl;
+}
+.com-flow-body > div > div > ul {
+    @apply w-full list-disc list-inside leading-loose text-base ml-8 -indent-[1.4rem];
+}
+
+/* 現況作法 */
+.com-flow-body > div > div:first-child {
+    @apply border-r-0 border-b border-sky-200
+        sm:border-r sm:border-b-0 
+        xl:border-r-0 xl:border-b;
+}
+.com-flow-body > div > div:first-child > p {
+    @apply text-slate-400;
+}
+.com-flow-body > div > div:first-child > ul {
+    @apply text-slate-400;
+}
+
+/* CHAP-V */
+.com-flow-body > div > div:last-child > p {
+    @apply text-sky-400;
+}
+.com-flow-body > div > div:last-child > ul {
+    @apply text-slate-600;
+}
+
+/* 箭頭 */
+.com-flow-body > div::after {
+    @apply absolute -z-10 rounded-md rotate-45 bg-inherit;
+    content: "";
+    --size:  30px;
+    top:     calc( 50% - var( --size ) / 2 );
+    left:    calc( 0%  - var( --size ) / 3 );
+    height:  var( --size );
+    width:   var( --size );
+}
+@media (min-width: 1280px) {
+    .com-flow-body > div::after {
+        top:  calc( 0%  - var( --size ) / 3 );
+        left: calc( 50% - var( --size ) / 2 );
+    }
+}
+
+/* ----------------------------------------------------------------------
+    member
+---------------------------------------------------------------------- */
+
+.com-member {
+    @apply relative h-full text-center;
+}
+.com-member > div {
+    @apply px-2 py-10 flex flex-col items-center gap-4 pointer-events-none;
+}
+
+/* unhover */
+.com-member > div:first-child > div {
+    @apply w-full max-w-[150px] aspect-square bg-slate-200/50 rounded-full overflow-hidden;
+}
+.com-member > div:first-child > h3 {
+    @apply text-2xl text-sky-400 font-semibold;
+}
+.com-member > div:first-child > p {
+    @apply text-base text-slate-400 font-semibold;
+}
+
+/* hover */
+.com-member > div:last-child {
+    @apply justify-center rounded-2xl absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-inherit opacity-0 transition;
+}
+.com-member > div:last-child > ul {
+    @apply flex flex-col gap-3 text-slate-600 text-center;
+}
+.com-member > div:last-child > p {
+    @apply text-sky-500 font-semibold;
+}
+
+.com-member.--show > div:last-child {
+    @apply opacity-90;
+}
+
+/* ----------------------------------------------------------------------
+    Contact
+---------------------------------------------------------------------- */
+
+/* 連結 */
+.com-contact-link {
+    @apply flex gap-2 items-center w-fit text-gray-400 fill-gray-400 transition
+        hover:text-sky-400 hover:fill-sky-400;
+}
+.com-contact-link > svg {
+    @apply w-6 h-6;
+}
+
+/* 表單 */
+.com-input {
+    @apply p-2 flex flex-row flex-wrap gap-1;
+}
+.com-input > label {
+    @apply w-fit text-slate-200;
+}
+.com-input > input,
+.com-input > textarea {
+    @apply w-full p-2 text-slate-600 bg-slate-100 rounded outline-none;
+}
+
+/* 警告文字 */
+.com-input > span {
+    @apply w-fit flex flex-row gap-1 items-center text-red-400 fill-red-400;
+}
+.com-input > span > svg {
+    @apply w-4 h-4;
+}
+
+/* 發送按鈕 */
+#contactSubmit.--load {
+    @apply pointer-events-none;
+}
+#contactSubmit.--load > #contactSubmitText {
+    @apply hidden;
+}
+#contactSubmit.--load > svg {
+    @apply block;
+}

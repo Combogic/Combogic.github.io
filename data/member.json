@@ -1,0 +1,122 @@
+[
+    {
+        "member_id": "0",
+        "img": "/img/member/wei-ming-li.png",
+        "ch": {
+            "name": "Wei-Ming Li",
+            "rank": "Co-founder & Product Lead",
+            "experience": [
+                "湛積LSC 資料系統部協理",
+                "台積電 tsmc 資深資料科學工程師",
+                "交通大學 統計學研究所"
+            ],
+            "profession": "Al / ML / Optimization"
+        },
+        "en": {
+            "name": "Wei-Ming Li",
+            "rank": "Co-founder & Product Lead",
+            "experience": [
+                "湛積LSC 資料系統部協理",
+                "台積電 tsmc 資深資料科學工程師",
+                "交通大學 統計學研究所"
+            ],
+            "profession": "Al / ML / Optimization"
+        }
+    },
+    {
+        "member_id": "1",
+        "img": "/img/member/kayson-cho.png",
+        "ch": {
+            "name": "Kayson Cho",
+            "rank": "Co-founder & Tech. Lead",
+            "experience": [
+                "湛積 LSC 資深資料分析工程師",
+                "台灣世曦 CECI GIS 軟體工程師",
+                "交通大學 士木工程研究所 -GIS 組"
+            ],
+            "profession": "Software Development / Geospatial Engineering"
+        },
+        "en": {
+            "name": "Kayson Cho",
+            "rank": "Co-founder & Tech. Lead",
+            "experience": [
+                "湛積 LSC 資深資料分析工程師",
+                "台灣世曦 CECI GIS 軟體工程師",
+                "交通大學 士木工程研究所 -GIS 組"
+            ],
+            "profession": "Software Development / Geospatial Engineering"
+        }
+    },
+    {
+        "member_id": "2",
+        "img": "/img/member/jim-chen.png",
+        "ch": {
+            "name": "Jim Chen",
+            "rank": "Lead Data Scientist",
+            "experience": [
+                "KRONOS 量化研究員",
+                "ULSee 深度學習工程師",
+                "清華大學 工業工程研究所"
+            ],
+            "profession": "Data Mining / ML"
+        },
+        "en": {
+            "name": "Jim Chen",
+            "rank": "Lead Data Scientist",
+            "experience": [
+                "KRONOS 量化研究員",
+                "ULSee 深度學習工程師",
+                "清華大學 工業工程研究所"
+            ],
+            "profession": "Data Mining / ML"
+        }
+    },
+    {
+        "member_id": "3",
+        "img": "/img/member/ka-un-chiu.png",
+        "ch": {
+            "name": "Ka-Un Chiu",
+            "rank": "Marketing Lead",
+            "experience": [
+                "PressPlay 頻道製作人",
+                "STR Network 硏究員",
+                "臺灣大學 生化科技系"
+            ],
+            "profession": "Marketing Strategy"
+        },
+        "en": {
+            "name": "Ka-Un Chiu",
+            "rank": "Marketing Lead",
+            "experience": [
+                "PressPlay 頻道製作人",
+                "STR Network 硏究員",
+                "臺灣大學 生化科技系"
+            ],
+            "profession": "Marketing Strategy"
+        }
+    },
+    {
+        "member_id": "4",
+        "img": "/img/member/tc-hung.png",
+        "ch": {
+            "name": "TC Hung",
+            "rank": "Business Development Lead",
+            "experience": [
+                "Cadence 產品驗證主任工程師",
+                "Advantest 系統工程師",
+                "臺灣大學 光電工程所"
+            ],
+            "profession": "Business Planning"
+        },
+        "en": {
+            "name": "TC Hung",
+            "rank": "Business Development Lead",
+            "experience": [
+                "Cadence 產品驗證主任工程師",
+                "Advantest 系統工程師",
+                "臺灣大學 光電工程所"
+            ],
+            "profession": "Business Planning"
+        }
+    }
+]
