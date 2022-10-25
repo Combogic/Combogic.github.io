@@ -1,30 +1,30 @@
 [
     {
         "blog_id": "0",
-        "href": "/blog/content.html",
-        "date": "2022-10-10",
-        "img": "/img/blog/blog-1.png",
+        "href": "/blog/content_0.html",
+        "date": "2022-10-26",
+        "img": "/img/blog/content_0_cover.jpeg",
         "ch": {
-            "title": "聯合國零碳排放態度強硬",
-            "desc": "去年英國央行前行長卡尼(Mark Carney)籌組格拉斯哥淨零金融聯盟(Glasgow Financial Alliance for Net Zero，GFANZ)，聚集多家大型銀行......"
+            "title": "關於ESG，一篇文說清楚",
+            "desc": "連雀巢宣布未來KitKat皆是「碳中和巧克力」，究竟為何ESG在企業界忽地火熱？你應該要將ESG納入策略版圖嗎？這篇我們來聊聊ESG認證究竟有何玄機。"
         },
         "en": {
-            "title": "English Title",
-            "desc": "English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, ......"
+            "title": "關於ESG，一篇文說清楚",
+            "desc": "連雀巢宣布未來KitKat皆是「碳中和巧克力」，究竟為何ESG在企業界忽地火熱？你應該要將ESG納入策略版圖嗎？這篇我們來聊聊ESG認證究竟有何玄機。"
         }
     },
     {
         "blog_id": "1",
-        "href": "/blog/content.html",
-        "date": "2022-10-10",
-        "img": "/img/blog/blog-2.png",
+        "href": "/blog/content_1.html",
+        "date": "2022-10-26",
+        "img": "/img/blog/content_1_cover.png",
         "ch": {
-            "title": "聯合國零碳排放態度強硬",
-            "desc": "去年英國央行前行長卡尼(Mark Carney)籌組格拉斯哥淨零金融聯盟(Glasgow Financial Alliance for Net Zero，GFANZ)，聚集多家大型銀行......"
+            "title": "碳定價、碳交易、碳中和、淨零、碳關稅、碳捕捉、碳預算...你必須知道的16個碳名詞！",
+            "desc": "《簡明．碳辭典》，三分鐘上手，聊時事、秀常識兩相宜"
         },
         "en": {
-            "title": "English Title",
-            "desc": "English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, ......"
+            "title": "碳定價、碳交易、碳中和、淨零、碳關稅、碳捕捉、碳預算...你必須知道的16個碳名詞！",
+            "desc": "《簡明．碳辭典》，三分鐘上手，聊時事、秀常識兩相宜"
         }
     },
     {
