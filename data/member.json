@@ -6,18 +6,18 @@
             "name": "Wei-Ming Li",
             "rank": "Co-founder & Product Lead",
             "experience": [
-                "Over 9 years of experience in data algorithm provider & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
+                "Over 9 years of experience in data algorithm design & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
             ],
-            "profession": "former TSMC, LSC engineer",
+            "profession": "AL / ML / Optimization",
             "linkedin": "https://www.linkedin.com/in/wei-ming-li-0925/"
         },
         "en": {
             "name": "Wei-Ming Li",
             "rank": "Co-founder & Product Lead",
             "experience": [
-                "Over 9 years of experience in data algorithm provider & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
+                "Over 9 years of experience in data algorithm design & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
             ],
-            "profession": "former TSMC, LSC engineer",
+            "profession": "AL / ML / Optimization",
             "linkedin": "https://www.linkedin.com/in/wei-ming-li-0925/"
         }
     },
@@ -47,7 +47,7 @@
         "member_id": "2",
         "img": "/img/member/jim-chen.png",
         "ch": {
-            "name": "Jim Chen",
+            "name": "Chi-Hang Chen",
             "rank": "Lead Data Scientist",
             "experience": [
                 "3+ years experience in data mining, machine learning & smart manufacturing; 2+ years in crypto high-frequency quant trading & software engineering. Feed me coffee to produce elegant code."
@@ -56,7 +56,7 @@
             "linkedin": "https://www.linkedin.com/in/chihangchen/"
         },
         "en": {
-            "name": "Jim Chen",
+            "name": "Chi-Hang Chen",
             "rank": "Lead Data Scientist",
             "experience": [
                 "3+ years experience in data mining, machine learning & smart manufacturing; 2+ years in crypto high-frequency quant trading & software engineering. Feed me coffee to produce elegant code."

@@ -90,9 +90,6 @@ const memberSwiper = new Swiper( '#memberSwiper' , {
         768: {
             slidesPerView: swiperLimit( memberNum , 3 ),
         },
-        1024: {
-            slidesPerView: swiperLimit( memberNum , 4 ),
-        },
         1280: {
             slidesPerView: swiperLimit( memberNum , 5 ),
         }
