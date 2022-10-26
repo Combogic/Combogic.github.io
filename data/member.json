@@ -6,21 +6,19 @@
             "name": "Wei-Ming Li",
             "rank": "Co-founder & Product Lead",
             "experience": [
-                "湛積LSC 資料系統部協理",
-                "台積電 tsmc 資深資料科學工程師",
-                "交通大學 統計學研究所"
+                "Over 9 years of experience in data algorithm provider & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
             ],
-            "profession": "Al / ML / Optimization"
+            "profession": "former TSMC, LSC engineer",
+            "linkedin": "https://www.linkedin.com/in/wei-ming-li-0925/"
         },
         "en": {
             "name": "Wei-Ming Li",
             "rank": "Co-founder & Product Lead",
             "experience": [
-                "湛積LSC 資料系統部協理",
-                "台積電 tsmc 資深資料科學工程師",
-                "交通大學 統計學研究所"
+                "Over 9 years of experience in data algorithm provider & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
             ],
-            "profession": "Al / ML / Optimization"
+            "profession": "former TSMC, LSC engineer",
+            "linkedin": "https://www.linkedin.com/in/wei-ming-li-0925/"
         }
     },
     {
@@ -30,21 +28,19 @@
             "name": "Kayson Cho",
             "rank": "Co-founder & Tech. Lead",
             "experience": [
-                "湛積 LSC 資深資料分析工程師",
-                "台灣世曦 CECI GIS 軟體工程師",
-                "交通大學 士木工程研究所 -GIS 組"
+                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
             ],
-            "profession": "Software Development / Geospatial Engineering"
+            "profession": "Software Development / Geospatial Engineering",
+            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
         },
         "en": {
             "name": "Kayson Cho",
             "rank": "Co-founder & Tech. Lead",
             "experience": [
-                "湛積 LSC 資深資料分析工程師",
-                "台灣世曦 CECI GIS 軟體工程師",
-                "交通大學 士木工程研究所 -GIS 組"
+                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
             ],
-            "profession": "Software Development / Geospatial Engineering"
+            "profession": "Software Development / Geospatial Engineering",
+            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
         }
     },
     {
@@ -54,21 +50,19 @@
             "name": "Jim Chen",
             "rank": "Lead Data Scientist",
             "experience": [
-                "KRONOS 量化研究員",
-                "ULSee 深度學習工程師",
-                "清華大學 工業工程研究所"
+                "3+ years experience in data mining, machine learning & smart manufacturing; 2+ years in crypto high-frequency quant trading & software engineering. Feed me coffee to produce elegant code."
             ],
-            "profession": "Data Mining / ML"
+            "profession": "Data Mining / ML",
+            "linkedin": "https://www.linkedin.com/in/chihangchen/"
         },
         "en": {
             "name": "Jim Chen",
             "rank": "Lead Data Scientist",
             "experience": [
-                "KRONOS 量化研究員",
-                "ULSee 深度學習工程師",
-                "清華大學 工業工程研究所"
+                "3+ years experience in data mining, machine learning & smart manufacturing; 2+ years in crypto high-frequency quant trading & software engineering. Feed me coffee to produce elegant code."
             ],
-            "profession": "Data Mining / ML"
+            "profession": "Data Mining / ML",
+            "linkedin": "https://www.linkedin.com/in/chihangchen/"
         }
     },
     {
@@ -78,21 +72,19 @@
             "name": "Ka-Un Chiu",
             "rank": "Marketing Lead",
             "experience": [
-                "PressPlay 頻道製作人",
-                "STR Network 硏究員",
-                "臺灣大學 生化科技系"
+                "Full experience in customized content strategy for startups, specialized in research integration, growth hack and humor-based creative writing with interest in Stand-up Comedy and Japanese Manzai. No kidding."
             ],
-            "profession": "Marketing Strategy"
+            "profession": "Marketing Strategy",
+            "linkedin": "https://www.linkedin.com/in/chiukaun/"
         },
         "en": {
             "name": "Ka-Un Chiu",
             "rank": "Marketing Lead",
             "experience": [
-                "PressPlay 頻道製作人",
-                "STR Network 硏究員",
-                "臺灣大學 生化科技系"
+                "Full experience in customized content strategy for startups, specialized in research integration, growth hack and humor-based creative writing with interest in Stand-up Comedy and Japanese Manzai. No kidding."
             ],
-            "profession": "Marketing Strategy"
+            "profession": "Marketing Strategy",
+            "linkedin": "https://www.linkedin.com/in/chiukaun/"
         }
     },
     {
@@ -102,21 +94,19 @@
             "name": "TC Hung",
             "rank": "Business Development Lead",
             "experience": [
-                "Cadence 產品驗證主任工程師",
-                "Advantest 系統工程師",
-                "臺灣大學 光電工程所"
+                "Cross-domain experience in both high-tech. company’s R&D & sales teams. Specialized in programming & product/account management. A football player in recovery. "
             ],
-            "profession": "Business Planning"
+            "profession": "Business Planning",
+            "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
         },
         "en": {
             "name": "TC Hung",
             "rank": "Business Development Lead",
             "experience": [
-                "Cadence 產品驗證主任工程師",
-                "Advantest 系統工程師",
-                "臺灣大學 光電工程所"
+                "Cross-domain experience in both high-tech. company’s R&D & sales teams. Specialized in programming & product/account management. A football player in recovery. "
             ],
-            "profession": "Business Planning"
+            "profession": "Business Planning",
+            "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
         }
     }
 ]

@@ -3,14 +3,14 @@
         "blog_id": "0",
         "href": "/blog/content_0.html",
         "date": "2022-10-26",
-        "img": "/img/blog/content_0_cover.jpeg",
+        "img": "/img/blog/content_0_cover.jpg",
         "ch": {
             "title": "關於ESG，一篇文說清楚",
             "desc": "連雀巢宣布未來KitKat皆是「碳中和巧克力」，究竟為何ESG在企業界忽地火熱？你應該要將ESG納入策略版圖嗎？這篇我們來聊聊ESG認證究竟有何玄機。"
         },
         "en": {
-            "title": "關於ESG，一篇文說清楚",
-            "desc": "連雀巢宣布未來KitKat皆是「碳中和巧克力」，究竟為何ESG在企業界忽地火熱？你應該要將ESG納入策略版圖嗎？這篇我們來聊聊ESG認證究竟有何玄機。"
+            "title": "All Things About ESG",
+            "desc": "Even Nestle announced that the future KitKat will be `carbon neutral chocolate`. Why is ESG suddenly hot in the corporate world? Should you put ESG on the strategy map? In this article, let's talk about the mystery of ESG certification."
         }
     },
     {
@@ -23,64 +23,22 @@
             "desc": "《簡明．碳辭典》，三分鐘上手，聊時事、秀常識兩相宜"
         },
         "en": {
-            "title": "碳定價、碳交易、碳中和、淨零、碳關稅、碳捕捉、碳預算...你必須知道的16個碳名詞！",
-            "desc": "《簡明．碳辭典》，三分鐘上手，聊時事、秀常識兩相宜"
+            "title": "Carbon pricing, carbon trading, carbon neutral, net zero, CBAM, carbon capture, carbon budgets... 16 carbon terms you must know!",
+            "desc": "`Simple Carbon Dictionary`, pick up in three minutes, suitable for chatting and showing off common senses."
         }
     },
     {
         "blog_id": "2",
-        "href": "/blog/content.html",
-        "date": "2022-10-10",
-        "img": "/img/blog/blog-3.png",
+        "href": "/blog/content_2.html",
+        "date": "2022-10-26",
+        "img": "/img/blog/content_2_cover.jpg",
         "ch": {
-            "title": "聯合國零碳排放態度強硬",
-            "desc": "去年英國央行前行長卡尼(Mark Carney)籌組格拉斯哥淨零金融聯盟(Glasgow Financial Alliance for Net Zero，GFANZ)，聚集多家大型銀行......"
+            "title": "減少45%車輛碳排放的潛力！綠駕駛概念如何運用於車隊管理？",
+            "desc": "根據歐盟數據，1990到2019年間居家、能源、農業、工業等碳排放源都逐年減少，唯獨只有「道路運輸」類別碳排放量不減反增。「道路碳排」是減量難度最高的部份，也許「綠駕駛」可以是一個解決方向。"
         },
         "en": {
-            "title": "English Title",
-            "desc": "English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, ......"
-        }
-    },
-    {
-        "blog_id": "3",
-        "href": "/blog/content.html",
-        "date": "2022-10-10",
-        "img": "/img/blog/blog-2.png",
-        "ch": {
-            "title": "聯合國零碳排放態度強硬",
-            "desc": "去年英國央行前行長卡尼(Mark Carney)籌組格拉斯哥淨零金融聯盟(Glasgow Financial Alliance for Net Zero，GFANZ)，聚集多家大型銀行......"
-        },
-        "en": {
-            "title": "English Title",
-            "desc": "English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, ......"
-        }
-    },
-    {
-        "blog_id": "4",
-        "href": "/blog/content.html",
-        "date": "2022-10-10",
-        "img": "/img/blog/blog-1.png",
-        "ch": {
-            "title": "聯合國零碳排放態度強硬",
-            "desc": "去年英國央行前行長卡尼(Mark Carney)籌組格拉斯哥淨零金融聯盟(Glasgow Financial Alliance for Net Zero，GFANZ)，聚集多家大型銀行......"
-        },
-        "en": {
-            "title": "English Title",
-            "desc": "English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, ......"
-        }
-    },
-    {
-        "blog_id": "5",
-        "href": "/blog/content.html",
-        "date": "2022-10-10",
-        "img": "/img/blog/blog-2.png",
-        "ch": {
-            "title": "聯合國零碳排放態度強硬",
-            "desc": "去年英國央行前行長卡尼(Mark Carney)籌組格拉斯哥淨零金融聯盟(Glasgow Financial Alliance for Net Zero，GFANZ)，聚集多家大型銀行......"
-        },
-        "en": {
-            "title": "English Title",
-            "desc": "English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, English Desc, ......"
+            "title": "Potential to reduce vehicle carbon emissions by 45%! How does eco-driving apply to fleet management?",
+            "desc": "According to EU data, from 1990 to 2019, carbon emission sources such as home, energy, agriculture, and industry have all decreased year by year, but only the “road transport” category of carbon emissions has not decreased but increased, and perhaps eco-driving can help."
         }
     }
 ]
