@@ -15,7 +15,7 @@ blogDataAll.sort( ( a , b ) => {
     return a.date < b.date ? 1 : -1;
 });
 
-// 前三筆BLOG ---> 改六筆看看
+// 前三筆BLOG ---> 改六筆看看  ---> 若要全部顯示 ： let blogData = blogDataAll;
 let blogData = blogDataAll.slice( 0 , 6 );
 
 // 打包固定頁面
