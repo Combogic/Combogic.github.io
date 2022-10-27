@@ -15,8 +15,8 @@ blogDataAll.sort( ( a , b ) => {
     return a.date < b.date ? 1 : -1;
 });
 
-// 前三筆BLOG
-let blogData = blogDataAll.slice( 0 , 3 );
+// 前三筆BLOG ---> 改六筆看看
+let blogData = blogDataAll.slice( 0 , 6 );
 
 // 打包固定頁面
 let rollupInput = {
