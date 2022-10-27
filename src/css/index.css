@@ -1,4 +1,109 @@
 /* ----------------------------------------------------------------------
+    paint
+---------------------------------------------------------------------- */
+
+/* 圖層 */
+.com-paint-layer {
+    @apply absolute top-0 right-0 bottom-0 left-0 h-full w-full;
+}
+
+/* tooltip ---------------------------------------- */
+
+/* hide */
+.com-paint-tooltip {
+    @apply absolute opacity-0 duration-500 transition;
+}
+.com-paint-tooltip > span {
+    @apply block w-[10px] h-[10px] bg-sky-400 rotate-45;
+}
+.com-paint-tooltip > h3 {
+    @apply absolute w-fit px-2 py-1 text-xs whitespace-nowrap bg-sky-400 text-white rounded
+        sm:text-lg;
+}
+
+/* show */
+.com-paint-animate.--show > .com-paint-tooltip {
+    @apply opacity-100 translate-y-0;
+}
+
+/* 清晰可視的運具軌跡 ---------------------------------------- */
+
+/* hide */
+#paintCo2e {
+    @apply opacity-0;
+    transition-duration: 200ms;
+}
+#paintPass,
+#paintRoute,
+#paintMark {
+    transition-duration: 750ms;
+}
+#paintPass,
+#paintRoute {
+    stroke-dasharray:  750;
+    stroke-dashoffset: 750;
+}
+#paintMark {
+    @apply -translate-y-6 opacity-0;
+}
+
+/* show */
+.com-paint-animate.--show #paintCo2e {
+    @apply opacity-100;
+    transition-delay: 500ms;
+}
+.com-paint-animate.--show #paintPass,
+.com-paint-animate.--show #paintRoute {
+    stroke-dashoffset: 0;
+}
+.com-paint-animate.--show #paintPass {
+    transition-delay: 0ms;
+}
+.com-paint-animate.--show #paintRoute {
+    transition-delay: 750ms;
+}
+.com-paint-animate.--show #paintMark {
+    @apply translate-y-0 opacity-100;
+    transition-delay: 1750ms;
+}
+
+/* ISO合規碳盤查資料庫 ---------------------------------------- */
+
+/* hide */
+#paintIso {
+    @apply opacity-0;
+    transition-duration: 200ms;
+}
+
+/* show */
+.com-paint-animate.--show #paintIso {
+    @apply opacity-100;
+    transition-delay: 500ms;
+}
+
+/* AI驅動的碳減量計畫 ---------------------------------------- */
+
+/* hide */
+#paintLink1,
+#paintLink2 {
+    transition-duration: 1000ms;
+    stroke-dasharray:  750;
+    stroke-dashoffset: 750;
+}
+
+/* show */
+.com-paint-animate.--show #paintLink1,
+.com-paint-animate.--show #paintLink2 {
+    stroke-dashoffset: 0;
+}
+.com-paint-animate.--show #paintLink1 {
+    transition-delay: 500ms;
+}
+.com-paint-animate.--show #paintLink2 {
+    transition-delay: 1500ms;
+}
+
+/* ----------------------------------------------------------------------
     whychap
 ---------------------------------------------------------------------- */
 

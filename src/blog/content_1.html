@@ -21,7 +21,8 @@
             回首頁
         </a>
 
-        <div class="com-block
+        <div id="content"
+            class="com-block
             mt-2 px-4 py-8
             sm:px-8">
             <div class="mb-6">
@@ -39,7 +40,7 @@
                     alt="碳定價、碳交易、碳中和、淨零、碳關稅、碳捕捉、碳預算、碳匯、碳稅、碳信用、總量管制、自願性碳市場、強制性碳市場..."
                     width="736"
                     height="414">
-                <figcaption class="py-0 text-slate-500 text-center">碳定價、碳交易、碳中和、淨零、強制性碳市場...聽完三個以上就昏了</figcaption>
+                <figcaption class="py-0 text-slate-500 text-center">碳定價、碳交易、碳中和、淨零、強制性碳市場...聽完三個就昏了</figcaption>
             </figure>
             </br>        
             <div class="leading-loose text-left text-xl text-slate-600">
@@ -224,23 +225,25 @@
                     <div class="swiper-slide">
                         <div class="com-blog com-block">
                             <div>
-                                <img src="{{ img }}"
-                                    alt="{{ ch.title }}"
-                                    width="443"
-                                    height="249">
+                                <div>
+                                    <img src="{{ img }}"
+                                        alt="{{ ch.title }}"
+                                        width="443"
+                                        height="249">
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a href="{{ href }}">{{ ch.title }}</a>
+                                    </h3>
+                                    <p>
+                                        {{ ch.desc }}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <h3>
-                                    {{ ch.title }}
-                                </h3>
-                                <p>
-                                    {{ ch.desc }}
-                                </p>
-                                <a class="com-btn-square"
-                                    href="{{ href }}">
-                                    閱讀文章
-                                </a>
-                            </div>
+                            <a class="com-btn-square"
+                                href="{{ href }}">
+                                閱讀文章
+                            </a>
                         </div>
                     </div>
                 {{/each}}

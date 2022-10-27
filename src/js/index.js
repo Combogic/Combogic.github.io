@@ -14,6 +14,24 @@ import '../css/index.css';
 import '../css/swiper-customize.css';
 
 /** ----------------------------------------------------------------------
+ * paint
+----------------------------------------------------------------------- */
+const paintLen = document.querySelectorAll( '.com-paint-animate' ).length;
+const paintEl = ( attr = '' ) => document.querySelector( `.com-paint-animate${ attr }` );
+
+const paintChange = () => {
+    // 取得id
+    let id = paintEl( '.--show' ).getAttribute( 'paint-id' );
+    id = Number( id );
+    id + 1 >= paintLen ? id = 0 : id++;
+    // 切換動畫
+    paintEl( '.--show' ).classList.remove( '--show' );
+    paintEl( `[paint-id="${ id }"]` ).classList.add( '--show' );
+};
+
+setInterval( () => paintChange() , 2000 );
+
+/** ----------------------------------------------------------------------
  * whychap
 ----------------------------------------------------------------------- */
 let whyChapBtn = [];
@@ -255,7 +273,7 @@ const contactSend = detail => {
     // loading
     contactSubmit.classList.add( '--load' );
     // emailjs
-    emailjs.send( 'service_6itzjbh' , 'template_wuh5nji' , detail , 'shRGcJbp-Jih1XMuR' )
+    emailjs.send( 'service_6itzjbh' , 'tempaint_wuh5nji' , detail , 'shRGcJbp-Jih1XMuR' )
         .then( () => {
             contactForm.forEach( li => li.element.value = '' );
             contactSubmitText.innerHTML = 'SUCCESS';

@@ -40,5 +40,33 @@
             "title": "Potential to reduce vehicle carbon emissions by 45%! How does eco-driving apply to fleet management?",
             "desc": "According to EU data, from 1990 to 2019, carbon emission sources such as home, energy, agriculture, and industry have all decreased year by year, but only the “road transport” category of carbon emissions has not decreased but increased, and perhaps eco-driving can help."
         }
+    },
+    {
+        "blog_id": "3",
+        "href": "/blog/content_3.html",
+        "date": "2022-10-27",
+        "img": "/img/blog/content_3_cover.jpg",
+        "ch": {
+            "title": "櫛構科技與陽明交大統計所「統計諮詢」課程進行學術交流",
+            "desc": "櫛構科技在今年十月於陽明交通大學統計所「統計諮詢」課堂與學生進行學術交流。會中櫛構科技行銷長周加恩介紹全球永續管理現狀與難題，以及櫛構科技對範疇三盤查困難所提出的解決方案。在針對運具方面，櫛構科技則提出提出資料分析與統計所師生進行一學期的交流。"
+        },
+        "en": {
+            "title": "Combogic Technology and Yangming Jiaotong University Statistics Institute Statistical Consulting course for academic exchanges",
+            "desc": "In October this year, Combogic Technology conducted academic exchanges with students in the Statistical Consulting class of the Institute of Statistics of Yangming Jiaotong University. During the meeting, Ka-Un Chiu, Marketing Director of Combogic Technology, introduced the status quo and problems of global sustainability management, as well as the solutions proposed by Comtec Technology to investigate the difficulties in Scope 3. In terms of transportation tools, Combogic Technology propose data analysis to communicate with teachers and students of the Institute of Statistics for one semester."
+        }
+    },
+    {
+        "blog_id": "4",
+        "href": "/blog/content_4.html",
+        "date": "2022-10-27",
+        "img": "/img/blog/content_4_cover.jpg",
+        "ch": {
+            "title": "櫛構科技預計於十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流",
+            "desc": "櫛構科技即將在十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流。演講大綱下載。"
+        },
+        "en": {
+            "title": "Combogic Technology is expected to conduct academic exchanges at the Advances in Reliabilty workshop of Academia Sinica in November",
+            "desc": "Combogic Technology will hold an academic exchange at the Advances in Reliabilty workshop of Academia Sinica in November. Download the speech outline."
+        }
     }
 ]

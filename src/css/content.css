@@ -1,32 +1,32 @@
-p + p {
+#content p + p {
     @apply mt-4;
 }
 
-h2 {
+#content h2 {
     @apply leading-snug mb-2 text-5xl font-semibold text-sky-600
 }
 
 
-h3 {
+#content h3 {
     @apply mb-2 text-3xl font-semibold text-sky-500;
 }
 
-figcaption {
+#content figcaption {
     @apply py-0 text-sm text-slate-500 text-center
 }
 
-ol {
+#content ol {
     @apply list-decimal list-outside pl-8
 }
 
-ul {
+#content ul {
     @apply list-disc list-outside pl-8
 }
 
-a {
+#content a {
     color: blue;
 }
 
-a:hover {
+#content a:hover {
     text-decoration: underline;
 }

@@ -7,8 +7,16 @@ import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import handlebars from 'vite-plugin-handlebars';
 
 // data
-import blogData   from './data/blog.json';
-import memberData from './data/member.json';
+import blogDataAll from './data/blog.json';
+import memberData  from './data/member.json';
+
+// BLOG日期排序
+blogDataAll.sort( ( a , b ) => {
+    return a.date < b.date ? 1 : -1;
+});
+
+// 前三筆BLOG
+let blogData = blogDataAll.slice( 0 , 3 );
 
 // 打包固定頁面
 let rollupInput = {
@@ -53,8 +61,9 @@ export default defineConfig({
         handlebars({
             // 帶入資料
             context: {
-                blogData:   blogData,
-                memberData: memberData
+                blogData:    blogData,
+                blogDataAll: blogDataAll,
+                memberData:  memberData
             },
             // 帶入模板
             partialDirectory: resolve( __dirname , './src/template' ),

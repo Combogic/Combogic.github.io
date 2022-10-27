@@ -1,9 +1,9 @@
 {{> header
-    lang="en"
-    lang_path="/en"
-    title="聯合國零碳排放態度強硬"
-    description="這是示範文字，描述文字盡量用語句陳述，不要太多頓號或是空格"
-    keywords="雖然大部分瀏覽器已不採用，以下示範： 整合現有盤查系統與生成ISO檢驗用表單 軌跡路徑分析 減碳因子警示 CHAP如何對接ESG/SDGs標準"
+    lang="zh-Hant-TW"
+    lang_path=""
+    title="櫛構科技預計於十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流"
+    description="櫛構科技即將在十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流。演講大綱下載。"
+    keywords="櫛構科技 中央研究院 永續管理 範疇三 運具 GPX軌跡"
     image_og="https://combogic.com/img/combogic.png"
 }}
 
@@ -16,35 +16,46 @@
 
         <a class="w-fit flex flex-row items-center gap-2 text-lg text-sky-500 fill-sky-500 transition
             hover:text-sky-400 hover:fill-sky-400"
-            href="/en/">
+            href="/">
             <svg class="w-6 h-6" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
-            HOME
+            回首頁
         </a>
+
+        <!-- ****** COVER TITLE ****** -->
 
         <div id="content"
             class="com-block
             mt-2 px-4 py-8
             sm:px-8">
             <div class="mb-6">
-                <h2 class="mb-2 text-3xl font-semibold text-sky-500">
-                    聯合國零碳排放態度強硬
+                <h2>
+                    櫛構科技預計於十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流
                 </h2>
                 <span class="text-base font-semibold text-slate-400">
-                    2022-09-18
+                    2022-10-27
                 </span>
             </div>
-                <img class="rounded-xl justify-center w-full mx-auto mb-6
-                lg:w-fit"
-                src="/img/blog/content_1_cover.png"
-                alt="測試圖片"
-                width="736"
-                height="414">
 
-                <div class="leading-loose text-base text-slate-600">
-                <p>Carbon pricing, carbon trading, carbon neutrality, net zero, carbon tariffs, carbon capture, carbon budgets, carbon sinks, carbon taxes, carbon credits, caps, voluntary carbon markets, mandatory carbon markets... The development of "carbon vocabulary" is like a term on the Internet. As long as you don't pay attention to it for a while, several new ones will pop up. </p>
-                <p>Are you like Kushina, you haven't paid attention to the issue of global warming for a while, but when you look back, you are already looking at flowers in a fog, and you find that the words in people's mouths are already incomprehensible? </p>
-                <p>It doesn't matter, the editor has compiled a book called "Concise. "Carbon Dictionary", it takes you three minutes to get started, and it is suitable for chatting about current affairs and showing common sense. </p>
+        <!-- ****** COVER IMAGE ****** -->
+            <figure>
+                <img class="rounded-xl justify-center w-full mx-auto mb-6
+                lg:w-fit" 
+                    src="/img/blog/content_4_cover.jpg"
+                    alt="櫛構科技預計於十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流"
+                    width="736"
+                    height="414">
+                <figcaption>櫛構科技預計於十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流</figcaption>
+            </figure>
+        </br>      
+
+        <!-- ****** TEXT ****** -->
+        <div class="leading-loose text-left text-xl text-slate-600">
+
+                <p>櫛構科技即將在十一月於中央研究院「Advances in Reliabilty」工作坊進行學術交流，敬請期待。</p>
+                <p><a href="https://www3.stat.sinica.edu.tw/air2022/dl/Wei-Ming%20Li.pdf">演講大綱下載</a></p>
+                <p><a href="https://www.nstc.gov.tw/nstc/attachments/bbe64b9a-9468-4883-ad51-0f0a88bc87cf">「Advances in Reliability」工作坊海報</a></p>
             </br>
+
             </div>
         </div>
     </div>
@@ -72,21 +83,21 @@
                             <div>
                                 <div>
                                     <img src="{{ img }}"
-                                        alt="{{ en.title }}"
+                                        alt="{{ ch.title }}"
                                         width="443"
                                         height="249">
                                 </div>
                                 <div>
                                     <h3>
-                                        <a href="{{ href }}">{{ en.title }}</a>
+                                        <a href="{{ href }}">{{ ch.title }}</a>
                                     </h3>
                                     <p>
-                                        {{ en.desc }}
+                                        {{ ch.desc }}
                                     </p>
                                 </div>
                             </div>
                             <a class="com-btn-square"
-                                href="/en{{ href }}">
+                                href="{{ href }}">
                                 閱讀文章
                             </a>
                         </div>
@@ -111,8 +122,8 @@
         </button>
     </div>
     <a class="com-btn-square mx-auto mt-4"
-        href="/en/blog/">
-        READ MORE
+        href="/blog/">
+        閱讀所有文章
     </a>
 </div>
 
@@ -122,5 +133,5 @@
 <script type="module" src="/js/content.js"></script>
 
 {{> footer
-    lang_path="/en"
+    lang_path=""
 }}

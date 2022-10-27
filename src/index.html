@@ -46,42 +46,18 @@
 <!-- ----------------------------------------------------------------------
     插畫
 ----------------------------------------------------------------------- -->
-
-<div id="illustration"
+<div id="paint"
     class="com-content
     bg-slate-200">
-    <h2 class="com-container
-        mb-4 text-sky-500 font-medium text-center text-lg leading-loose
-        md:text-xl md:leading-loose
-        lg:text-2xl lg:leading-loose">
-        一體化碳管理解決方案。
+    <h2 class="com-container com-title
+        mx-auto text-center">
+        一體化碳管理解決方案
     </h2>
-    <div class="w-full max-w-screen-lg mx-auto
-        md:w-5/6">
-        <!-- illustration -->
-        <img class="w-full"
-            src="/assets/chapv-co2e-reduction.png"
-            alt="CHAP-V減碳示意圖"
-            width="1024"
-            height="602">
-        <!-- attribute the author -->
-        <!-- <div class="text-center text-xs text-slate-400/40 scale-75">
-            Icons made by
-            <a class="hover:text-sky-400"
-                href="https://www.freepik.com"
-                title="Freepik"
-                target="_blank">
-                Freepik
-            </a>
-            from
-            <a class="hover:text-sky-400"
-                href="https://www.flaticon.com/"
-                title="Flaticon"
-                target="_blank">
-                www.flaticon.com
-            </a>
-        </div> -->
-    </div>
+    {{> paint
+        text_route="清晰可視的運距軌跡"
+        text_iso="ISO合規碳盤查資料庫"
+        text_ai="AI驅動的減碳計畫"
+    }}
 </div>
 
 <!-- ----------------------------------------------------------------------
@@ -196,7 +172,7 @@
                         <ul>
                             <li>一維數據收集：油單、磅單、距離手動截圖</li>
                             <li>手動收集凌亂易失準</li>
-                            <li>盤查失準，ESG轉型困難</li>
+                            <li>盤查失準，ESG 轉型困難</li>
                         </ul>
                     </div>
                     <div>
@@ -386,23 +362,25 @@
                     <div class="swiper-slide">
                         <div class="com-blog com-block">
                             <div>
-                                <img src="{{ img }}"
-                                    alt="{{ ch.title }}"
-                                    width="443"
-                                    height="249">
+                                <div>
+                                    <img src="{{ img }}"
+                                        alt="{{ ch.title }}"
+                                        width="443"
+                                        height="249">
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a href="{{ href }}">{{ ch.title }}</a>
+                                    </h3>
+                                    <p>
+                                        {{ ch.desc }}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <h3>
-                                    <a href="{{ href }}">{{ ch.title }}</a>
-                                </h3>
-                                <p>
-                                    {{ ch.desc }}
-                                </p>
-                                <a class="com-btn-square"
-                                    href="{{ href }}">
-                                    閱讀文章
-                                </a>
-                            </div>
+                            <a class="com-btn-square"
+                                href="{{ href }}">
+                                閱讀文章
+                            </a>
                         </div>
                     </div>
                 {{/each}}
@@ -481,7 +459,7 @@
             <div class="com-input
                 w-full
                 sm:w-1/2">
-                <label for="name">*姓名</label>
+                <label for="name"><span style="color: red;">* </span>姓名</label>
                 <span></span>
                 <input id="contactName"
                     name="name"
@@ -500,7 +478,7 @@
             </div>
             <div class="com-input
                 w-full">
-                <label for="email">*信箱</label>
+                <label for="email"><span style="color: red;">* </span>信箱</label>
                 <span></span>
                 <input id="contactEmail"
                     name="email"
@@ -509,7 +487,7 @@
             </div>
             <div class="com-input
                 w-full">
-                <label for="detail">*需要服務的內容</label>
+                <label for="detail"><span style="color: red;">* </span>需要服務的內容</label>
                 <span></span>
                 <textarea id="contactDetail"
                     name="detail"

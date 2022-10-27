@@ -129,25 +129,29 @@
     }
 
     .com-blog {
-        @apply h-full;
+        @apply flex flex-col items-end justify-between h-full;
     }
 
     /* 圖片 */
-    .com-blog > div:first-child {
-        @apply rounded-2xl w-full aspect-video overflow-hidden;
+    .com-blog > div > div:first-child {
+        @apply w-full aspect-video rounded-2xl overflow-hidden;
     }
-    .com-blog > div:first-child > img {
+    .com-blog > div > div:first-child > img {
         @apply h-full w-full object-cover object-center;
     }
 
     /* 文字 */
-    .com-blog > div:last-child {
-        @apply px-4 pt-4 pb-8 flex flex-col items-end gap-4;
+    .com-blog > div > div:last-child {
+        @apply p-4 flex flex-col gap-4;
     }
-    .com-blog > div:last-child > h3 {
+    .com-blog > div > div:last-child > h3 {
         @apply w-full text-sky-500 font-semibold text-2xl;
     }
-    .com-blog > div:last-child > p {
+    .com-blog > div > div:last-child > p {
         @apply w-full text-slate-500 leading-loose;
+    }
+
+    .com-blog > a {
+        @apply mr-4 mb-8;
     }
 }

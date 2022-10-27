@@ -21,7 +21,8 @@
             回首頁
         </a>
 
-        <div class="com-block
+        <div id="content"
+            class="com-block
             mt-2 px-4 py-8
             sm:px-8">
             <div class="mb-6">
@@ -137,23 +138,25 @@
                     <div class="swiper-slide">
                         <div class="com-blog com-block">
                             <div>
-                                <img src="{{ img }}"
-                                    alt="{{ ch.title }}"
-                                    width="443"
-                                    height="249">
+                                <div>
+                                    <img src="{{ img }}"
+                                        alt="{{ ch.title }}"
+                                        width="443"
+                                        height="249">
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a href="{{ href }}">{{ ch.title }}</a>
+                                    </h3>
+                                    <p>
+                                        {{ ch.desc }}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <h3>
-                                    {{ ch.title }}
-                                </h3>
-                                <p>
-                                    {{ ch.desc }}
-                                </p>
-                                <a class="com-btn-square"
-                                    href="{{ href }}">
-                                    閱讀文章
-                                </a>
-                            </div>
+                            <a class="com-btn-square"
+                                href="{{ href }}">
+                                閱讀文章
+                            </a>
                         </div>
                     </div>
                 {{/each}}

@@ -45,41 +45,18 @@
 <!-- ----------------------------------------------------------------------
     插畫
 ----------------------------------------------------------------------- -->
-<div id="illustration"
+<div id="paint"
     class="com-content
     bg-slate-200">
-    <h2 class="com-container
-        mb-4 text-sky-500 font-medium text-center text-lg leading-loose
-        md:text-xl md:leading-loose
-        lg:text-2xl lg:leading-loose">
-        Clear and visible conveyance trajectory, ISO compliance carbon inventory form, AI-driven carbon reduction plan, and integrated carbon management solution.
+    <h2 class="com-container com-title
+        mx-auto text-center">
+        One-stop-integration carbon management solution.
     </h2>
-    <div class="w-full max-w-screen-lg mx-auto
-        md:w-5/6">
-        <!-- illustration -->
-        <img class="w-full"
-            src="/assets/chapv-co2e-reduction.png"
-            alt="CHAP-V減碳示意圖"
-            width="1024"
-            height="602">
-        <!-- attribute the author -->
-        <!-- <div class="text-center text-xs text-slate-400/40 scale-75">
-            Icons made by
-            <a class="hover:text-sky-400"
-                href="https://www.freepik.com"
-                title="Freepik"
-                target="_blank">
-                Freepik
-            </a>
-            from
-            <a class="hover:text-sky-400"
-                href="https://www.flaticon.com/"
-                title="Flaticon"
-                target="_blank">
-                www.flaticon.com
-            </a>
-        </div> -->
-    </div>
+    {{> paint
+        text_route="Clear and visible conveyance trajectory"
+        text_iso="ISO compliance carbon inventory"
+        text_ai="AI-driven carbon reduction plan"
+    }}
 </div>
 
 <!-- ----------------------------------------------------------------------
@@ -380,23 +357,25 @@
                     <div class="swiper-slide">
                         <div class="com-blog com-block">
                             <div>
-                                <img src="{{ img }}"
-                                    alt="{{ en.title }}"
-                                    width="443"
-                                    height="249">
+                                <div>
+                                    <img src="{{ img }}"
+                                        alt="{{ en.title }}"
+                                        width="443"
+                                        height="249">
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a href="{{ href }}">{{ en.title }}</a>
+                                    </h3>
+                                    <p>
+                                        {{ en.desc }}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <h3>
-                                    {{ en.title }}
-                                </h3>
-                                <p>
-                                    {{ en.desc }}
-                                </p>
-                                <a class="com-btn-square"
-                                    href="/en{{ href }}">
-                                    READ
-                                </a>
-                            </div>
+                            <a class="com-btn-square"
+                                href="/en{{ href }}">
+                                read article
+                            </a>
                         </div>
                     </div>
                 {{/each}}
@@ -443,13 +422,13 @@
                 height="72">
                 <hr class="border-slate-600">
             <p class="text-slate-100 leading-loose">
-                有任何想法，都可與 Combogic Technology Ltd. 專業團隊討論。
+                Contact us for customized carbon management solution and reduction project.
             </p>
             <!-- link -->
             <ul class="flex flex-col gap-3">
                 <li>
                     <a class="com-contact-link"
-                        href="#">
+                        href="https://www.linkedin.com/company/combogic/">
                         <svg viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
                         LinkedIn
                     </a>
@@ -464,7 +443,7 @@
                 <li>
                     <span class="com-contact-link">
                         <svg viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>
-                        103台北市大同區南京西路62號7號
+                        103 No. 7, No. 62, Nanjing West Road, Datong District, Taipei City
                     </span>
                 </li>
             </ul>
@@ -475,42 +454,42 @@
             <div class="com-input
                 w-full
                 sm:w-1/2">
-                <label for="name">姓名</label>
+                <label for="name">Name</label>
                 <span></span>
                 <input id="contactName"
                     name="name"
                     type="text"
-                    placeholder="請輸入您的姓名">
+                    placeholder="please enter your name">
             </div>
             <div class="com-input
                 w-full
                 sm:w-1/2">
-                <label for="tel">電話（選填）</label>
+                <label for="tel">Phone</label>
                 <span></span>
                 <input id="contactTel"
                     name="tel"
                     type="tel"
-                    placeholder="請輸入您的電話">
+                    placeholder="Please enter your phone">
             </div>
             <div class="com-input
                 w-full">
-                <label for="email">信箱</label>
+                <label for="email">Email</label>
                 <span></span>
                 <input id="contactEmail"
                     name="email"
                     type="email"
-                    placeholder="請輸入您的信箱">
+                    placeholder="Please enter your email">
             </div>
             <div class="com-input
                 w-full">
-                <label for="detail">需要服務的內容（上限1000字）</label>
+                <label for="detail">Content</label>
                 <span></span>
                 <textarea id="contactDetail"
                     name="detail"
                     type="text"
                     rows="6"
                     maxlength="1000"
-                    placeholder="有任何想法，都可以與我聯絡"></textarea>
+                    placeholder="What's in your mind?"></textarea>
             </div>
             <div class="com-input
                 w-full
