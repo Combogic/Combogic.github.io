@@ -17,8 +17,8 @@
     @apply block w-[10px] h-[10px] bg-sky-400 rotate-45;
 }
 .com-paint-tooltip > h3 {
-    @apply absolute w-fit px-2 py-1 text-xs whitespace-nowrap bg-sky-400 text-white rounded
-        sm:text-lg;
+    @apply absolute w-[135px] px-2 py-1 text-xs text-center whitespace-normal bg-sky-400 text-white rounded
+        sm:w-fit sm:text-lg sm:whitespace-nowrap;
 }
 
 /* show */
