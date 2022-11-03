@@ -462,12 +462,22 @@
             <div class="com-input
                 w-full
                 sm:w-1/2">
-                <label for="name">Name</label>
+                <label for="name"><span style="color: red;">* </span>Name</label>
                 <span></span>
                 <input id="contactName"
                     name="name"
                     type="text"
-                    placeholder="please enter your name">
+                    placeholder="Please enter your name">
+            </div>
+            <div class="com-input
+                w-full
+                sm:w-1/2">
+                <label for="com"><span style="color: red;">* </span>Company</label>
+                <span></span>
+                <input id="contactCom"
+                    name="com"
+                    type="text"
+                    placeholder="Please enter your company name">
             </div>
             <div class="com-input
                 w-full
@@ -480,8 +490,9 @@
                     placeholder="Please enter your phone">
             </div>
             <div class="com-input
-                w-full">
-                <label for="email">Email</label>
+                w-full
+                sm:w-1/2">
+                <label for="email"><span style="color: red;">* </span>Email</label>
                 <span></span>
                 <input id="contactEmail"
                     name="email"
@@ -490,7 +501,7 @@
             </div>
             <div class="com-input
                 w-full">
-                <label for="detail">Content</label>
+                <label for="detail"><span style="color: red;">* </span>Content</label>
                 <span></span>
                 <textarea id="contactDetail"
                     name="detail"

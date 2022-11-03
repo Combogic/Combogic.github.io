@@ -162,6 +162,18 @@ const contactForm = [
         ]
     },
     {
+        element: document.getElementById( 'contactCom' ),
+        ruleList: [
+            {
+                rule: value => value !== '',
+                alert: {
+                    ch: '此為必填欄位！',
+                    en: 'This is a required field!'
+                }
+            }
+        ]
+    },
+    {
         element: document.getElementById( 'contactTel' ),
         ruleList: [
             {
