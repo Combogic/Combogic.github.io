@@ -282,6 +282,7 @@ const contactBundle = () => {
 
 // 發送信件
 const contactSend = detail => {
+    const text = contactSubmitText.innerHTML;
     // loading
     contactSubmit.classList.add( '--load' );
     // emailjs
@@ -296,6 +297,6 @@ const contactSend = detail => {
         })
         .finally( () => {
             contactSubmit.classList.remove( '--load' );
-            setTimeout( () => contactSubmitText.innerHTML = 'SEND' , 2000 );
+            setTimeout( () => contactSubmitText.innerHTML = text , 2000 );
         });
 };
