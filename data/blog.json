@@ -68,5 +68,19 @@
             "title": "Combogic Tech. is expected to conduct academic exchanges at the Advances in Reliability workshop of Academia Sinica in November",
             "desc": "Combogic Tech. will hold an academic exchange at the Advances in Reliability workshop of Academia Sinica in November. Download the speech outline."
         }
+    },
+    {
+        "blog_id": "5",
+        "href": "/blog/cop27-whats-going-on.html",
+        "date": "2022-10-27",
+        "img": "/img/blog/cop27-whats-going-on/cop27-whats-going-on.png",
+        "ch": {
+            "title": "COP27吵得沸沸揚揚，究竟是怎麼一回事？",
+            "desc": "COP27還未開始就不大平靜：氣候補償的議程、社運人士的不滿...這次的COP有何亮點？又有什麼意義？這篇文章帶你了解今年聯合國氣候大會COP27的重要觀念。"
+        },
+        "en": {
+            "title": "COP27, what's going on?",
+            "desc": "COP27 is not very calm: the agenda of Loss and Damage, the dissatisfaction of social activists... What are the highlights of COP27? What's the meaning of it? This article takes you through the key take-aways of this year's UN Conference of Parties - COP27."
+        }
     }
 ]

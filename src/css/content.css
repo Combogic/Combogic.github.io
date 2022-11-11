@@ -11,6 +11,10 @@
     @apply mb-2 text-3xl font-semibold text-sky-500;
 }
 
+#content h4 {
+    @apply mb-2 text-2xl font-semibold text-sky-500;
+}
+
 #content figcaption {
     @apply py-0 text-sm text-slate-500 text-center
 }
@@ -24,7 +28,7 @@
 }
 
 #content a {
-    color: blue;
+    color: rgb(17, 17, 177);
 }
 
 #content a:hover {

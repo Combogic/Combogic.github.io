@@ -37,7 +37,7 @@ Combogic Website
 
 
 6. 新增「BLOG文章」（暫時做法，未來依後端調整）：
-    (1) 在 '/data/blog.json' 新增資料
+    (1) 在 '/data/blog.json' 新增資料 (記得檢查英文檔名、描述通順、照片路徑正確)
         （目前新增的資料，僅會出現在swiper中，仍須自行新增html）
     (2) 在 '/public/img/blog' 新增照片
     (3) 複製 '/src/blog/content.html' ，並更名、編輯內文
