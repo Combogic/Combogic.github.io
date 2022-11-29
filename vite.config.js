@@ -27,7 +27,7 @@ let rollupInput = {
 };
 
 // 打包BLOG頁面（需先自行新增html）
-blogData.forEach( page => {
+blogDataAll.forEach( page => {
     let name = page.href.replace( '/blog/' , '' ).replace( '.html' , '' );
     rollupInput[ name ]         = './src'    + page.href;
     rollupInput[ name + '-en' ] = './src/en' + page.href;
