@@ -43,6 +43,7 @@ Combogic Website
     (3) 複製 '/src/blog/content.html' ，並更名、編輯內文
         英文版網頁則是 '/src/en/blog/content.html'
     (4) 在 terminal 輸入 npm run build
+    (5) 確認預覽頁面圖片正常
 
 
 7. Html參數設定：

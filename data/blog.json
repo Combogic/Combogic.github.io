@@ -72,7 +72,7 @@
     {
         "blog_id": "5",
         "href": "/blog/cop27-whats-going-on.html",
-        "date": "2022-10-27",
+        "date": "2022-11-11",
         "img": "/img/blog/cop27-whats-going-on/cop27-whats-going-on.png",
         "ch": {
             "title": "COP27吵得沸沸揚揚，究竟是怎麼一回事？",
@@ -81,6 +81,34 @@
         "en": {
             "title": "COP27, what's going on?",
             "desc": "COP27 is not very calm: the agenda of Loss and Damage, the dissatisfaction of social activists... What are the highlights of COP27? What's the meaning of it? This article takes you through the key take-aways of this year's UN Conference of Parties - COP27."
+        }
+    },
+    {
+        "blog_id": "6",
+        "href": "/blog/6-steps-to-esg.html",
+        "date": "2022-11-28",
+        "img": "/img/blog/6-steps-to-esg/6-steps-to-esg.jpeg",
+        "ch": {
+            "title": "如何取得ESG認證？六大步驟啟動永續轉型",
+            "desc": "企業可以如何取得ESG？取得ESG前有哪些應該做的準備？這篇文章提供六點參考，協助您思考永續轉型。"
+        },
+        "en": {
+            "title":"How to obtain ESG certification? Six steps to start a sustainable transformation",
+            "desc": "How can companies obtain ESG? What preparations should be made before obtaining ESG? This article provides six points of reference to help you think about sustainable transformation."
+        }
+    },
+    {
+        "blog_id": "7",
+        "href": "/blog/esg-report-key-concepts.html",
+        "date": "2022-11-28",
+        "img": "/img/blog/esg-report-key-concepts/esg-report-key-concepts.jpeg",
+        "ch": {
+            "title": "2023年必懂的ESG報告關鍵概念：GRI、SASB、TCFD、Materiality",
+            "desc": "企業撰寫「ESG報告」的壓力越來越大，這份「ESG報告」有什麼特別之處？對企業真的那麼重要嗎？寫作ESG報告過程會遇到哪些困難？"
+        },
+        "en": {
+            "title":"Key concepts of ESG reports in 2023: GRI, SASB, TCFD, Materiality",
+            "desc": "Companies are under increasing pressure to write ESG reports. What is so special about this ESG report? Is it really that important to the business? What are the difficulties encountered in the process of writing an ESG report?"
         }
     }
 ]
