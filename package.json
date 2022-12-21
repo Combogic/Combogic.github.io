@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
-    "esbuild": "^0.15.11",
+    "esbuild": "^0.15.18",
     "swiper": "^8.4.2",
     "vite-plugin-handlebars": "^1.6.0"
   }

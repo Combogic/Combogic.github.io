@@ -5,8 +5,8 @@ import emailjs from '@emailjs/browser';
 
 // Module
 import './module/header';
-import { isMobile } from './module/isMobile.js';
-import { swiperLimit } from './module/swiperLimit.js';
+import { isMobile } from './module/is-mobile.js';
+import { swiperLimit } from './module/swiper-limit.js';
 
 // Css
 import '../css/main.css';
@@ -29,7 +29,7 @@ const paintChange = () => {
     paintEl( `[paint-id="${ id }"]` ).classList.add( '--show' );
 };
 
-setInterval( () => paintChange() , 2000 );
+setInterval( () => paintChange() , 3000 );
 
 /** ----------------------------------------------------------------------
  * whychap

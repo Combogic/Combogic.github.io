@@ -1,26 +1,20 @@
-{{> header
+{{#> main
     lang="en"
     lang_path="/en"
     title="Combogic Tech. Ltd."
     description="Solutions in the carbon emission life cycle, through the high-resolution carbon data AI analysis platform to help companies accurately analyze carbon emission factors, formulate ESG carbon reduction plans, and assist carbon reduction companies to painlessly connect information breakpoints in carbon inventory and carbon reduction. Use technology to sort out the structure and solve problems with logic."
-    keywords="Solutions in the carbon emission life cycle, through the high-resolution carbon data AI analysis platform to help companies accurately analyze carbon emission factors, formulate ESG carbon reduction plans, and assist carbon reduction companies to painlessly connect information breakpoints in carbon inventory and carbon reduction. Use technology to sort out the structure and solve problems with logic."
     image_og="https://combogic.com/img/combogic.png"
 }}
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2G8HLRWML6"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-2G8HLRWML6');
-    </script>
+
 <!-- ----------------------------------------------------------------------
     banner
 ----------------------------------------------------------------------- -->
 <section id="banner"
     class="relative w-full h-screen overflow-hidden">
     <div class="absolute top-0 right-0 bottom-0 left-0 z-10 px-4 pt-6 w-full h-full flex items-center justify-center flex-col gap-6 text-white text-center bg-black bg-opacity-50">
+        <h1 class="com-seo">
+            Combogic 櫛構科技
+        </h1>
         <h2 class="text-3xl font-semibold
             md:text-4xl">
             HOLD INFINITY IN THE PALM OF YOUR HAND.
@@ -38,6 +32,7 @@
         </a>
     </div>
     <video class="w-screen h-screen object-cover object-center"
+        poster="/assets/chapv-hero-content-bg.jpg"
         width="1920"
         height="1080"
         playsinline
@@ -307,10 +302,10 @@
                         <div class="com-member com-block">
                             <div>
                                 <div>
-                                        <img src="{{ img }}"
-                                            alt="{{ en.name }}"
-                                            width="160"
-                                            height="160">
+                                    <img src="{{ img }}"
+                                        alt="{{ en.name }}"
+                                        width="160"
+                                        height="160">
                                 </div>
                                 <h3>{{ en.name }}</h3>
                                 <p>{{ en.rank }}</p>
@@ -361,32 +356,7 @@
             class="swiper com-container">
             <div class="swiper-wrapper">
 
-                {{#each blogData}}
-                    <div class="swiper-slide">
-                        <div class="com-blog com-block">
-                            <div>
-                                <div>
-                                    <img src="{{ img }}"
-                                        alt="{{ en.title }}"
-                                        width="443"
-                                        height="249">
-                                </div>
-                                <div>
-                                    <h3>
-                                        <a href="/en{{ href }}">{{ en.title }}</a>
-                                    </h3>
-                                    <p>
-                                        {{ en.desc }}
-                                    </p>
-                                </div>
-                            </div>
-                            <a class="com-btn-square"
-                                href="/en{{ href }}">
-                                read article
-                            </a>
-                        </div>
-                    </div>
-                {{/each}}
+                {{#blogCard blogDataEn ../title true}}{{/blogCard}}
 
             </div>
             <!-- pagination -->
@@ -449,10 +419,11 @@
                     </a>
                 </li>
                 <li>
-                    <span class="com-contact-link">
+                    <a  class="com-contact-link"
+                        href="https://goo.gl/maps/H2uqWRHoJWi8J97R8">
                         <svg viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>
                         103 7F, No. 62, Nanjing West Road, Datong District, Taipei City
-                    </span>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -532,6 +503,4 @@
 ----------------------------------------------------------------------- -->
 <script type="module" src="/js/index.js"></script>
 
-{{> footer
-    lang_path="/en"
-}}
+{{/ main }}

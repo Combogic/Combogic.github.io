@@ -30,31 +30,40 @@ Combogic Website
     </div>
 
 
-5. 新增「團隊成員」（暫時做法，未來依後端調整）：
+5. 新增「團隊成員」：
     (1) 在 '/data/member.json' 新增資料
-    (2) 在 '/public/img/member' 新增照片
+    (2) 在 '/public/img/member' 新增圖片
     (3) 在 terminal 輸入 npm run build
 
 
-6. 新增「BLOG文章」（暫時做法，未來依後端調整）：
-    (1) 在 '/data/blog.json' 新增資料 (記得檢查英文檔名、描述通順、照片路徑正確)
-        （目前新增的資料，僅會出現在swiper中，仍須自行新增html）
-    (2) 在 '/public/img/blog' 新增照片
-    (3) 複製 '/src/blog/content.html' ，並更名、編輯內文
+6. 新增「BLOG文章」：
+    (1) 在 '/public/img/blog' 新增圖片
+    (2) 複製 '/src/blog/content.html' ，並更名、編輯內文
         英文版網頁則是 '/src/en/blog/content.html'
-    (4) 在 terminal 輸入 npm run build
-    (5) 確認預覽頁面圖片正常
+    (3) 在 terminal 輸入 npm run build
 
 
 7. Html參數設定：
     於每一個html最頂部，可帶入參數，以下說明：
+
+    index.html & blog/index.html
     {{> header
         lang=        語言設定，台灣為「 "zh-Hant-TW" 」，美國為「 "en" 」
         lang_path=   語言路徑，中文版網頁不需設定，英文版需設定為「 "/en" 」
         title=       網頁上方標題，及社群軟體連結標題
         description= SEO網頁描述文字
-        keywords=    SEO網頁關鍵字（Google已不採用）
-        image_og=    社群軟體顯示的照片（圖片需用「絕對位置」）
+        image_og=    社群軟體顯示的照片
+    }}
+
+    blog/content.html
+    {{#> content-ch
+        title=           文章標題、網頁上方標題，及社群軟體連結標題
+        description=     文章簡介、SEO網頁描述文字
+        date=            文章日期
+        image_og=        封面圖片、社群軟體顯示的照片
+        image_desc=      封面圖片的描述文字
+        image_link=      封面圖片的連結
+        image_link_text= 封面圖片連結的文字
     }}
 
 
@@ -74,8 +83,10 @@ combogic
     |   |           |__content.html // 單篇文章（之後新增複製）
     |   |
     |   |__template
-    |   |   |__header.html // 模板 header
-    |   |   |__footer.html // 模板 footer
+    |   |   |__main.html       // 模板 head、header、footer
+    |   |   |__paint.html      // 模板 首頁動畫
+    |   |   |__content-ch.html // 模板 中文文章
+    |   |   |__content-en.html // 模板 英文文章
     |   |
     |   |__js
     |   |   |__index.js   // 首頁
@@ -96,11 +107,6 @@ combogic
     |   |__assets // 圖片及影片
     |
     |
-    |__data
-    |   |__blog.json   // 最新消息
-    |   |__member.json // 團隊成員
-    |
-    |
     |__public
     |   |__img
     |       |__blog   // 最新消息圖片
@@ -113,8 +119,12 @@ combogic
     |__dist // 打包程式碼
     |
     |
+    |__member.json // 團隊成員
+    |__admin.js    // 後端程式
+    |
     |__vite.config.js      // vite 設定檔
     |__tailwind.config.cjs // tailwindcss 設定檔
     |__postcss.config.cjs  // postcss 設定檔
+    |
     |__package-lock.json
     |__package.json

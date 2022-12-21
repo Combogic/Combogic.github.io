@@ -1,37 +1,13 @@
-// vite
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 // vite plugin
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
-import handlebars from 'vite-plugin-handlebars';
+import Handlebars from 'vite-plugin-handlebars';
 
 // data
-import blogDataAll from './data/blog.json';
-import memberData  from './data/member.json';
-
-// BLOG日期排序
-blogDataAll.sort( ( a , b ) => {
-    return a.date < b.date ? 1 : -1;
-});
-
-// 前三筆BLOG ---> 改六筆看看  ---> 若要全部顯示 ： let blogData = blogDataAll;
-let blogData = blogDataAll.slice( 0 , 6 );
-
-// 打包固定頁面
-let rollupInput = {
-    'index':    './src/index.html',
-    'blog':     './src/blog/index.html',
-    'index-en': './src/en/index.html',
-    'blog-en':  './src/en/blog/index.html'
-};
-
-// 打包BLOG頁面（需先自行新增html）
-blogDataAll.forEach( page => {
-    let name = page.href.replace( '/blog/' , '' ).replace( '.html' , '' );
-    rollupInput[ name ]         = './src'    + page.href;
-    rollupInput[ name + '-en' ] = './src/en' + page.href;
-});
+import memberData from './member.json';
+import { rollupInput , blogDataCh , blogDataEn , blogCard } from './admin.js'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -58,15 +34,18 @@ export default defineConfig({
         // 壓縮
         ViteMinifyPlugin({}),
         // 模板引擎
-        handlebars({
+        Handlebars({
             // 帶入資料
             context: {
-                blogData:    blogData,
-                blogDataAll: blogDataAll,
-                memberData:  memberData
+                blogDataCh: blogDataCh,
+                blogDataEn: blogDataEn,
+                memberData: memberData
             },
             // 帶入模板
             partialDirectory: resolve( __dirname , './src/template' ),
+            helpers: {
+                blogCard
+            }
         }),
     ],
 })

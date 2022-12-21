@@ -1,24 +1,18 @@
-{{> header
+{{#> main
     lang="zh-Hant-TW"
     lang_path=""
     title="更多文章"
     description="Combogic Tech. 的部落格專區"
-    keywords=""
     image_og="https://combogic.com/img/combogic.png"
 }}
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2G8HLRWML6"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-2G8HLRWML6', { 'debug_mode':true });
-    </script>
+
 <!-- ----------------------------------------------------------------------
     更多文章
 ----------------------------------------------------------------------- -->
 <div class="com-content">
+    <h1 class="com-seo">
+        更多文章
+    </h1>
 
     <div class="com-container">
 
@@ -33,32 +27,7 @@
             md:grid-cols-2
             xl:grid-cols-3">
 
-            {{#each blogDataAll}}
-                <div class="swiper-slide">
-                    <div class="com-blog com-block">
-                        <div>
-                            <div>
-                                <img src="{{ img }}"
-                                    alt="{{ ch.title }}"
-                                    width="443"
-                                    height="249">
-                            </div>
-                            <div>
-                                <h3>
-                                    <a href="{{ href }}">{{ ch.title }}</a>
-                                </h3>
-                                <p>
-                                    {{ ch.desc }}
-                                </p>
-                            </div>
-                        </div>
-                        <a class="com-btn-square"
-                            href="{{ href }}">
-                            閱讀文章
-                        </a>
-                    </div>
-                </div>
-            {{/each}}
+            {{#blogCard blogDataCh ../title false}}{{/blogCard}}
 
         </div>
     </div>
@@ -70,6 +39,4 @@
 ----------------------------------------------------------------------- -->
 <script type="module" src="/js/blog.js"></script>
 
-{{> footer
-    lang_path=""
-}}
+{{/ main }}
