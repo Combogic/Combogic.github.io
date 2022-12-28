@@ -173,18 +173,18 @@ const contactForm = [
             }
         ]
     },
-    {
-        element: document.getElementById( 'contactTel' ),
-        ruleList: [
-            {
-                rule: value => value.search( /[0-9]/ ) !== -1 || value === '',
-                alert: {
-                    ch: '電話格式錯誤！',
-                    en: 'Phone number invalid!'
-                }
-            }
-        ]
-    },
+    // {
+    //     element: document.getElementById( 'contactTel' ),
+    //     ruleList: [
+    //         {
+    //             rule: value => value.search( /[0-9]/ ) !== -1 || value === '',
+    //             alert: {
+    //                 ch: '電話格式錯誤！',
+    //                 en: 'Phone number invalid!'
+    //             }
+    //         }
+    //     ]
+    // },
     {
         element: document.getElementById( 'contactEmail' ),
         ruleList: [
@@ -204,25 +204,25 @@ const contactForm = [
             }
         ]
     },
-    {
-        element: document.getElementById( 'contactDetail' ),
-        ruleList: [
-            {
-                rule: value => value !== '',
-                alert: {
-                    ch: '此為必填欄位！',
-                    en: 'This is a required field!'
-                }
-            },
-            {
-                rule: value => value.length <= 1000,
-                alert: {
-                    ch: '已超出1000字！',
-                    en: 'Exceeded 1000 letters!'
-                }
-            }
-        ]
-    }
+    // {
+    //     element: document.getElementById( 'contactDetail' ),
+    //     ruleList: [
+    //         {
+    //             rule: value => value !== '',
+    //             alert: {
+    //                 ch: '此為必填欄位！',
+    //                 en: 'This is a required field!'
+    //             }
+    //         },
+    //         {
+    //             rule: value => value.length <= 1000,
+    //             alert: {
+    //                 ch: '已超出1000字！',
+    //                 en: 'Exceeded 1000 letters!'
+    //             }
+    //         }
+    //     ]
+    // }
 ];
 
 // 點選送出

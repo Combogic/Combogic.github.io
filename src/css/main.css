@@ -22,7 +22,7 @@
     }
 
     .com-title {
-        @apply mb-5 text-2xl text-sky-500 font-semibold
+        @apply mb-5 text-2xl text-sky-500 text-left font-semibold
             sm:text-3xl;
     }
 
