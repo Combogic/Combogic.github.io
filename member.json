@@ -45,6 +45,28 @@
     },
     {
         "member_id": "2",
+        "img": "/img/member/tc-hung.png",
+        "ch": {
+            "name": "TC Hung",
+            "rank": "Co-founder & CPO",
+            "experience": [
+                "Cross-domain experience in both high-tech. company’s R&D & sales teams. Specialized in programming & product/account management. A football player in recovery. "
+            ],
+            "profession": "Product & Account Management",
+            "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
+        },
+        "en": {
+            "name": "TC Hung",
+            "rank": "CPO",
+            "experience": [
+                "Cross-domain experience in both high-tech. company’s R&D & sales teams. Specialized in programming & product/account management. A football player in recovery. "
+            ],
+            "profession": "Product & Account Management",
+            "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
+        }
+    },
+    {
+        "member_id": "3",
         "img": "/img/member/jim-chen.png",
         "ch": {
             "name": "Chi-Hang Chen",
@@ -66,7 +88,7 @@
         }
     },
     {
-        "member_id": "3",
+        "member_id": "4",
         "img": "/img/member/ka-un-chiu.png",
         "ch": {
             "name": "Ka-Un Chiu",
@@ -86,27 +108,5 @@
             "profession": "Marketing Strategy",
             "linkedin": "https://www.linkedin.com/in/chiukaun/"
         }
-    },
-    {
-        "member_id": "4",
-        "img": "/img/member/tc-hung.png",
-        "ch": {
-            "name": "TC Hung",
-            "rank": "CPO",
-            "experience": [
-                "Cross-domain experience in both high-tech. company’s R&D & sales teams. Specialized in programming & product/account management. A football player in recovery. "
-            ],
-            "profession": "Product & Account Management",
-            "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
-        },
-        "en": {
-            "name": "TC Hung",
-            "rank": "CPO",
-            "experience": [
-                "Cross-domain experience in both high-tech. company’s R&D & sales teams. Specialized in programming & product/account management. A football player in recovery. "
-            ],
-            "profession": "Product & Account Management",
-            "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
-        }
-    }
+    }   
 ]
