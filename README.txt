@@ -38,9 +38,8 @@ Combogic Website
 
 6. 新增「BLOG文章」：
     (1) 圖片準備：轉成webp檔，打包進資料夾(以文章檔名命名)，在 '/public/img/blog' 新增
-    (1.5) 進行轉檔 Md. to HTML https://markdowntohtml.com/ 
-    (2) 複製 '/src/blog/content.html' ，並更名、編輯內文
-        英文版網頁則是 '/src/en/blog/content.html'
+    (2) 複製 '/src/blog/content.html' ，並更名、編輯內文；英文版網頁則是 '/src/en/blog/content.html'
+    (2) 進行轉檔 Md. to HTML https://markdowntohtml.com/。貼上內文，編輯圖像檔 alt 資訊與位置
     (3) 在 terminal 輸入 npm run build
 
 
