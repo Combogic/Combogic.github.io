@@ -286,7 +286,7 @@ const contactSend = detail => {
     // loading
     contactSubmit.classList.add( '--load' );
     // emailjs
-    emailjs.send( 'service_6itzjbh' , 'template_wuh5nji' , detail , 'shRGcJbp-Jih1XMuR' )
+    emailjs.send( 'service_6itzjbh' , 'template_wuh5nji' , detail , '1lG0MNj65ijuE4D4f' )
         .then( () => {
             contactForm.forEach( li => li.element.value = '' );
             contactSubmitText.innerHTML = 'SUCCESS';
