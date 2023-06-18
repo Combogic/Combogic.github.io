@@ -128,3 +128,14 @@ combogic
     |
     |__package-lock.json
     |__package.json
+
+9. 文章格式設定：
+    (1) 文章格式設定在 content.css 裡面
+    (2) 圖片大小設定可以在 <img> tag 裡面加入 class="small" 、class="tiny" 微調圖片大小，共有 "full"（全幅）、"mediu"、"small"、"tiny" 可以選擇。
+        例：
+        <figure>
+            <img class="small" src="/img/blog/esg-history/7-pri.webp" alt="責任投資原則">
+            <figcaption>責任投資原則（<a href="https://en.wikipedia.org/wiki/Principles_for_Responsible_Investment">圖片來源</a>）</figcaption>
+        </figure>
+
+    (3) 
