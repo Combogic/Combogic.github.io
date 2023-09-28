@@ -14,6 +14,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxtjs/i18n',
+    '@zadigetvoltaire/nuxt-gtm',
+    'nuxt-gtag',
   ],
   i18n: {
     baseUrl: BASE_URL,
@@ -47,6 +49,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  gtm: {
+    id: 'GTM-NMVZXSN',
+  },
+  gtag: {
+    id: 'G-2G8HLRWML6',
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -63,7 +71,24 @@ export default defineNuxtConfig({
         { name: 'og:site_name', content: 'Combogic Tech. 櫛構科技' },
         { name: 'twitter:title', content: 'Combogic Tech. 櫛構科技' },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'sitemap' , type: 'application/xml' , title: 'Sitemap' , href: `${ BASE_URL }/sitemap.xml` }
+      ],
+      script: [
+        {
+          innerHTML: (
+            `(function(h,o,t,j,a,r){` +
+            `h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};` +
+            `h._hjSettings={hjid:3255999,hjsv:6};` +
+            `a=o.getElementsByTagName('head')[0];` +
+            `r=o.createElement('script');r.async=1;` +
+            `r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;` +
+            `a.appendChild(r);` +
+            `})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`
+          )
+        }
+      ],
     },
   },
 })
