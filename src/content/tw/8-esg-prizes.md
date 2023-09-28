@@ -8,7 +8,7 @@ imageLink: "https://www.freepik.com/free-photo/ecological-toothbrushes-grass_872
 ---
 
 <h2 id="-esg-">國內八大永續獎項：申請ESG標章前先研究</h2>
-<p><img src="../005-Files/ecological-toothbrushes-grass.jpeg" alt=""></p>
+<p><img src="/images/blog/005-Files/ecological-toothbrushes-grass.jpeg" alt=""></p>
 <p>申請ESG標章可能是一件很麻煩的事情，參加評選也需要練習。《2030永續企業革命》指出，許多企業在申請ESG評比分數時，往往要第二、三次比較容易成功。</p>
 <p>以「企業人權基準」為例，滿分 100，列入評比的企業第一次參加者的平均是 17.2，平均分數則為 31.4，這之間超過 10 分的差距，並不一定是努力一年有多大成果，更多反而是第二次送件時，更懂得該怎麼填寫報名表。</p>
 <p>延伸閱讀：<a href="./6-steps-to-esg">如何取得ESG認證？六大步驟啟動永續轉型</a></p>

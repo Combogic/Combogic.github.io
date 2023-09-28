@@ -23,7 +23,7 @@ imageLink: "https://www.freepik.com/free-photo/view-green-forest-trees-with-co2_
 </ol>
 <p>現在，我們一起來看看碳權在這四個階段的生與死。</p>
 <h2 id="碳權發展成形">碳權的起源：減碳項目計畫</h2>
-<p><img src="../005-Files/3.webp" alt="">
+<p><img src="/images/blog/005-Files/3.webp" alt="">
 <figure>
     <img src="/images/blog/carbon-credit-life-cycle/2.webp" alt="">
     <figcaption>目前一共有超過170種碳抵銷計畫（<a href="https://carboncredits.com/the-carbon-credit-lifecycle/">圖片來源</a>）</figcaption>
