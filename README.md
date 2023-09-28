@@ -61,3 +61,9 @@ combogic
     |__nuxt.config.js     // Nuxt 設定檔
     |__tailwind.config.js // tailwindcss 設定檔
 ```
+
+## 文章新增
+於 `src/content` 中依語系個別新增文章，文章必須為 `.md` 檔，但可在檔中撰寫 `Markdown` 或是 `html` 格式，皆可正常編譯。
+
+## 新增語系
+可於 `nuxt.config.ts` 中 `i18n.locales` 配置、新增語系，語言包請放置於 `src/locales`。
