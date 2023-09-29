@@ -11,8 +11,9 @@ export const useBlogInfo = ( blogResult: ObjectType[] ): BlogCardType[] => {
     ({
       title,
       description,
-      image,
+      image: image || '/images/combogic.png',
       href: `/blog/${ _path.split( '/' )[ 2 ] }`,
     })
   )
+
 }
