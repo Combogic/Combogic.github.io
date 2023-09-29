@@ -119,7 +119,8 @@
   </div>
 
   <!-- newest blog -->
-  <div id="newestBlog"
+  <div v-if=" newestBlogList.length > 0 "
+    id="newestBlog"
     class="com-wrapper
     bg-secondary-100"
     >
