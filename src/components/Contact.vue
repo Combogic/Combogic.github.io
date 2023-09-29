@@ -210,6 +210,7 @@ const contactVerify: RuleFormType = {
 }
 
 const { $emailjs } = useNuxtApp()
+const { SERVICE_ID , TEMPLATE_ID , PUBLIC_KEY } = useRuntimeConfig().public.EMAILJS
 
 const submitEmail = () => {
   const { data , warn } = useVerify( contactData.value , contactVerify )
@@ -227,9 +228,7 @@ const submitEmail = () => {
 
   isLoading.value = true
 
-  $emailjs.send(
-    'service_6itzjbh' , 'template_wuh5nji' , data , '1lG0MNj65ijuE4D4f'
-  )
+  $emailjs.send( SERVICE_ID , TEMPLATE_ID , data , PUBLIC_KEY )
   .then( () => {
     contactData.value = {
       name:   '',

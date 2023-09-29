@@ -1,4 +1,9 @@
 const BASE_URL = 'https://combogic.com'
+const GTM_ID = 'GTM-NMVZXSN'
+const GTAG_ID = 'G-2G8HLRWML6'
+const HOTJAR_ID = '3255999'
+const HOTJAR_SV = '6'
+
 
 export default defineNuxtConfig({
   ssr: true,
@@ -9,6 +14,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       BASE_URL,
+      EMAILJS: {
+        SERVICE_ID: 'service_6itzjbh',
+        TEMPLATE_ID: 'template_wuh5nji',
+        PUBLIC_KEY: '1lG0MNj65ijuE4D4f',
+      } 
     },
   },
   modules: [
@@ -50,10 +60,10 @@ export default defineNuxtConfig({
     },
   },
   gtm: {
-    id: 'GTM-NMVZXSN',
+    id: GTM_ID,
   },
   gtag: {
-    id: 'G-2G8HLRWML6',
+    id: GTAG_ID,
   },
   app: {
     head: {
@@ -80,7 +90,7 @@ export default defineNuxtConfig({
           innerHTML: (
             `(function(h,o,t,j,a,r){` +
             `h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};` +
-            `h._hjSettings={hjid:3255999,hjsv:6};` +
+            `h._hjSettings={hjid:${ HOTJAR_ID },hjsv:${ HOTJAR_SV }};` +
             `a=o.getElementsByTagName('head')[0];` +
             `r=o.createElement('script');r.async=1;` +
             `r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;` +
