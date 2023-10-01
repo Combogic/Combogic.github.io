@@ -44,7 +44,8 @@ npm run preview
 ```
 combogic
     |
-    |__bin // 執行檔
+    |__bin  // 執行檔
+    |__docs // 輸出檔
     |__src
     |   |__assets      // 影音資產
     |   |__components  // 元件
