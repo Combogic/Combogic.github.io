@@ -18,7 +18,7 @@
           </a>
         </h3>
         <p class="blog-card-desc">
-          {{ description.slice( 0 , 100 ) }}......
+          {{ description }}
         </p>
       </div>
     </div>
@@ -79,17 +79,26 @@ defineProps({
   @apply p-4 flex flex-col gap-4;
 }
 
-/* 圖片 */
+/* head */
 .blog-card-img {
   @apply h-full w-full object-cover object-center;
 }
 
-/* 文字 */
+/* body */
+.blog-card-title,
+.blog-card-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  @apply w-full overflow-hidden;
+}
 .blog-card-title {
-  @apply w-full text-primary-500 font-semibold text-2xl;
+  -webkit-line-clamp: 2;
+  @apply text-primary-500 font-semibold text-2xl;
 }
 .blog-card-desc {
-  @apply w-full text-secondary-500 leading-loose;
+  -webkit-line-clamp: 4;
+  @apply text-secondary-500 leading-loose;
 }
 
 .com-btn-square {
