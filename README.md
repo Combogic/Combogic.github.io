@@ -1,5 +1,12 @@
 Combogic Website
-
+# 新增 Blog
+```
+1. 新增文章: src/blog/XXX.html
+2. 新增文章圖檔: public/img/blog/XXX/a.wepb
+3. 文章圖檔連結改為: /img/blog/XXX/a.wepb (build 後出現)
+4. npm run build
+5. git push
+```
 
 1. 使用技術：
     (1) 後端語言： node.js & npm
