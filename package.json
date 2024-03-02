@@ -18,10 +18,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
-    "browserslist": "^4.23.0",
-    "caniuse-lite": "^1.0.30001591",
     "esbuild": "^0.15.18",
-    "package.json": "^0.0.0",
+    "package.json": "^2.0.1",
     "swiper": "^8.4.2",
     "vite-plugin-handlebars": "^1.6.0"
   }
