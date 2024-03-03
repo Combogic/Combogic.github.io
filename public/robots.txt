@@ -1,4 +1,4 @@
 User-Agent: *
-Disallow: /ads.txt
+Disallow:
 
 Sitemap: https://combogic.com/sitemap.xml
