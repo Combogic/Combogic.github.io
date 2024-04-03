@@ -64,49 +64,5 @@
             "profession": "Product & Account Management",
             "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
         }
-    },
-    {
-        "member_id": "3",
-        "img": "/img/member/jim-chen.png",
-        "ch": {
-            "name": "Chi-Hang Chen",
-            "rank": "Lead Data Scientist",
-            "experience": [
-                "3+ years experience in data mining, machine learning & smart manufacturing; 2+ years in crypto high-frequency quant trading & software engineering. Feed me coffee to produce elegant code."
-            ],
-            "profession": "Data Mining / ML",
-            "linkedin": "https://www.linkedin.com/in/chihangchen/"
-        },
-        "en": {
-            "name": "Chi-Hang Chen",
-            "rank": "Lead Data Scientist",
-            "experience": [
-                "3+ years experience in data mining, machine learning & smart manufacturing; 2+ years in crypto high-frequency quant trading & software engineering. Feed me coffee to produce elegant code."
-            ],
-            "profession": "Data Mining / ML",
-            "linkedin": "https://www.linkedin.com/in/chihangchen/"
-        }
-    },
-    {
-        "member_id": "4",
-        "img": "/img/member/ka-un-chiu.png",
-        "ch": {
-            "name": "Ka-Un Chiu",
-            "rank": "ESG & Marketing Director",
-            "experience": [
-                "Full experience in customized content strategy for startups, specialized in research integration, growth hack and humor-based creative writing with interest in Stand-up Comedy and Japanese Manzai. No kidding."
-            ],
-            "profession": "Marketing Strategy",
-            "linkedin": "https://www.linkedin.com/in/chiukaun/"
-        },
-        "en": {
-            "name": "Ka-Un Chiu",
-            "rank": "ESG & Marketing Director",
-            "experience": [
-                "Full experience in customized content strategy for startups, specialized in research integration, growth hack and humor-based creative writing with interest in Stand-up Comedy and Japanese Manzai. No kidding."
-            ],
-            "profession": "Marketing Strategy",
-            "linkedin": "https://www.linkedin.com/in/chiukaun/"
-        }
-    }   
+    }
 ]
