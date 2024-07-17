@@ -6,7 +6,7 @@
             "name": "Wei-Ming Li",
             "rank": "Co-founder & CEO",
             "experience": [
-                "Over 9 years of experience in data algorithm design & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
+                "Over 10 years of experience in data algorithm design & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
             ],
             "profession": "AL / ML / Optimization",
             "linkedin": "https://www.linkedin.com/in/wei-ming-li-0925/"
@@ -15,32 +15,10 @@
             "name": "Wei-Ming Li",
             "rank": "Co-founder & CEO",
             "experience": [
-                "Over 9 years of experience in data algorithm design & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
+                "Over 10 years of experience in data algorithm design & startup team management in the semiconductor & IoV industry, specialized in problem-solving leveraging data modeling & ML system build-up."
             ],
             "profession": "AL / ML / Optimization",
             "linkedin": "https://www.linkedin.com/in/wei-ming-li-0925/"
-        }
-    },
-    {
-        "member_id": "1",
-        "img": "/img/member/kayson-cho.png",
-        "ch": {
-            "name": "Kayson Cho",
-            "rank": "Co-founder & CTO",
-            "experience": [
-                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
-            ],
-            "profession": "Software Development / Geospatial Engineering",
-            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
-        },
-        "en": {
-            "name": "Kayson Cho",
-            "rank": "Co-founder & CTO",
-            "experience": [
-                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
-            ],
-            "profession": "Software Development / Geospatial Engineering",
-            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
         }
     },
     {
@@ -64,5 +42,28 @@
             "profession": "Product & Account Management",
             "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
         }
+    },
+    {
+        "member_id": "1",
+        "img": "/img/member/kayson-cho.png",
+        "ch": {
+            "name": "Kayson Cho",
+            "rank": "",
+            "experience": [
+                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
+            ],
+            "profession": "Software Development / Geospatial Engineering",
+            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
+        },
+        "en": {
+            "name": "Kayson Cho",
+            "rank": "",
+            "experience": [
+                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
+            ],
+            "profession": "Software Development / Geospatial Engineering",
+            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
+        }
     }
+
 ]
