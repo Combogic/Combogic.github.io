@@ -22,7 +22,7 @@
         }
     },
     {
-        "member_id": "2",
+        "member_id": "1",
         "img": "/img/member/tc-hung.png",
         "ch": {
             "name": "TC Hung",
@@ -41,28 +41,6 @@
             ],
             "profession": "Product & Account Management",
             "linkedin": "https://www.linkedin.com/in/%E5%BE%9E%E8%B1%88-%E6%B4%AA-752bb171/"
-        }
-    },
-    {
-        "member_id": "1",
-        "img": "/img/member/kayson-cho.png",
-        "ch": {
-            "name": "Kayson Cho",
-            "rank": "",
-            "experience": [
-                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
-            ],
-            "profession": "Software Development / Geospatial Engineering",
-            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
-        },
-        "en": {
-            "name": "Kayson Cho",
-            "rank": "",
-            "experience": [
-                "10+ years software & spatial information expert who is skilled in geodata processing & WebGIS development. Experiences include IoV, disaster prevention technology & urban infrastructure. Long live geospatial."
-            ],
-            "profession": "Software Development / Geospatial Engineering",
-            "linkedin": "https://www.linkedin.com/in/kuanhsuncho/"
         }
     }
 
